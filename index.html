@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio:Ronald Regalado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="navbar-brand fw-bold fs-2 ps-lg-4 ps-md-3" id="logo" data-section="menu" data-value="logo">
+                ${Hello,word}
+            </div>
+            <div class="navbar-toggler position-absolute end-0 top-0 mt-3 me-md-5 me-sm-2" id="menu" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list text-light"></i>
+            </div>
+            <div class="collapse navbar-collapse me-lg-5" id="navbarCollapse">
+                <ul id="list" class="navbar-nav ms-auto">
+                    <li class="link nav-item mx-2 my-1"><span class="descriptiveIcons me-2"><i id="homeLink"
+                                class="bi-house"></i></span> <a href="#home" data-section="menu"
+                            data-value="home">Home</a></li>
+                    <li class="link nav-item mx-2 my-1"><span class="descriptiveIcons me-2"><i id="aboutLink"
+                                class="bi-person"></i></span> <a href="#about" data-section="menu"
+                            data-value="about">About</a></li>
+                    <li class="link nav-item mx-2 my-1"><span class="descriptiveIcons me-2"><i id="skillsLink"
+                                class="bi-code-slash"></i></span> <a href="#skills" data-section="menu"
+                            data-value="skills">Skills</a></li>
+                    <li class="link nav-item mx-2 my-1"><span class="descriptiveIcons me-2"><i id="portfolioLink"
+                                class="bi-briefcase"></i></span> <a href="#portfolio" data-section="menu"
+                            data-value="portfolio">Portfolio</a></li>
+                    <li class="link nav-item mx-2 my-1"><span class="descriptiveIcons me-2"><i id="contactLink"
+                                class="bi-envelope-at"></i></span> <a href="#contact" data-section="menu"
+                            data-value="contact">Contact</a></li>
+                    <li class="link nav-item mx-2 my-1 me-auto" id="themeContainer"><i
+                            class="bi-moon-stars text-light change me-2" id="changeTheme">
+                        </i><span class="fs-4 descriptiveText" data-section="menu" data-value="theme">Theme</span>
+                    </li>
+                    <li class="nav-item my-1 me-auto">
+                        <ul class="language" style="cursor:pointer">
+                            <li id="flags" class="flags">
+                                <a class="flag-item" id="flag_en" data-language="en">
+                                    <img class="flag" src="./img/EN.jpg" alt="english flag" width="40" height="35">
+                                </a>
+                                <a class="flag-item" id="flag_es" data-language="es">
+                                    <img class="flag" src="./img/ES.jpg" alt="bandera española" width="40" height="35">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- sections -->
+    <!-- Home -->
+    <section class="container-fluid px-5" id="home">
+        <div class="row px-lg-5 px-sm-0">
+            <div class="homeContent mt-5 col-sm-12 col-md-8 col-lg-7">
+                <div class="display-4 d-flex">
+                    <h3 class="display-4 me-3" data-section="home" data-value="hello">Hello,</h3><span
+                        class="labeled fw-bold" data-section="home" data-value="me">I am</span>
+                </div>
+                <h1 class="display-3 fw-bolder d-inline">Ronald Regalado</h1>
+                <p class="my-3 fs-5" data-section="home" data-value="description">Welcome to my website, you can find
+                    here everything about me, my skills and my
+                    work.
+                </p>
+                <div id="socialMedia" class="mt-sm-0 mt-md-1 mt-lg-4">
+                    <ul class="d-flex justify-content-around">
+                        <li><a href="https://www.instagram.com/ronaldregaladobatista/" target="_blank"><i
+                                    class="bi-instagram"></i></a></li>
+                        <li><a href="https://gist.github.com/Ronald-Regalado" target="_blank"><i
+                                    class="bi-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/me?trk=p_mwlite_feed_updates-secondary_nav"
+                                target="_blank"><i class="bi-linkedin"></i></a></li>
+                        <li><a href="https://stackoverflow.com/users/22209841/ronald-regalado" target="_blank"><i
+                                    class="bi-stack-overflow"></i></a></li>
+                    </ul>
+                </div>
+                <div id="containerCV" class="my-4">
+                    <a href="./CV Ronald Regalado Batista 15_09_2023 12_55_20.pdf" download target="_blank"><button
+                            id="btnDownloadCV" class="btn buttons" data-section="home" data-value="download">Download
+                            CV</button>
+                    </a>
+                </div>
+            </div>
+            <div id="hero" class="col-sm-12 col-md-4 col-lg-5 text-center align-self-center">
+                <img src="./svg/hero-devices.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="container-fluid px-lg-5 px-md-3 px-sm-1" id="about">
+        <div class="text-center">
+            <div class="display-2 fw-bolder mb-3 d-flex justify-content-center heading">
+                < <span class="me-3" data-section="about" data-value="name">About</span><span class="labeled"
+                        data-section="about" data-value="me">me</span> />
+            </div>
+            <p id="aboutContent" class=" px-lg-5 px-md-3 px-sm-2" data-section="about" data-value="description">
+                Soy <span>Ronald Regalado</span>,estudiante de ingeniería <span>Automática</span> de la Universidad
+                Tecnológica de La Habana <span>"CUJAE"</span>.
+                Mi pasión por la programación me llevó a convertirme en <span>desarrollador web front-end</span>.
+                A lo largo de mis estudios y proyectos personales, he adquirido habilidades en <span> HTML,CSS y
+                    Javascript</span>,
+                y he trabajodo con frameworks como <span>Bootstrap</span> para crear <span>interfaces responsivas y
+                    atractivas</span>.
+                Siempre estoy dispuesto a enfrentar los nuevos retos y <span>aprender nuevas tecnologías</span> que me
+                permitan desarrollarme como profesional.
+            </p>
+
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="container-fluid px-5" id="skills">
+        <h1 class="display-2 fw-bolder mt-3 text-center mb-4 heading">
+            <<span data-section="skills" data-value="name" class="text-wrap textShadow">Skills</span>/>
+        </h1>
+        <div>
+            <h4 class="text-center mt-2 textShadow" data-section="skills" data-value="main">Principales</h4>
+            <div id="principal" class="d-flex justify-content-around mx-auto skillsContent">
+            </div>
+            <h4 class="text-center mt-2 textShadow" data-section="skills" data-value="secondary">Secundarias</h4>
+            <div id="secundary" class="d-flex justify-content-around mx-auto skillsContent"></div>
+
+        </div>
+    </section>
+    <!-- portfolio -->
+    <section class="container-fluid px-sm-1 px-lg-5" id="portfolio">
+        <h1 class="display-2 fw-bolder text-center mb-2 heading">
+            <<span data-section="portfolio" data-value="name">Portfolio</span>/>
+        </h1>
+        <div id="portfolioContainer" class="px-sm-1 px-lg-5">
+            <div class="project">
+                <a href="https://ronald-regalado.github.io/autom-tica-/">
+                    <img src="./img/autoHtml.png" alt="">
+                    <div class="projectContent">
+                        <h3 class="text-center" data-section="portfolio" data-value="firstName"></h3>
+                        <p  data-section="portfolio" data-value="firstDescription">
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://ronald-regalado.github.io/interative-rating-component/">
+                    <img src="./img/calificacion.png" alt="">
+                    <div class="projectContent">
+                        <h3 class="text-center" data-section="portfolio" data-value="secondName"></h3>
+                        <p  data-section="portfolio" data-value="secondDescription">
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://ronald-regalado.github.io/Multi-step/">
+                    <img src="./img/multiStep.png" alt="">
+                    <div class="projectContent">
+                        <h3 class="text-center" data-section="portfolio" data-value="thirdNa,e"></h3>
+                        <p data-section="portfolio" data-value="thirdDescription">
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://ronald-regalado.github.io/order-summary/">
+                    <img src="./img/music.png" alt="">
+                    <div class="projectContent">
+                        <h3 class="text-center" data-section="portfolio" data-value="fourthName"></h3>
+                        <p  data-section="portfolio" data-value="fourthDescription">
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="project">
+                <a href="https://ronald-regalado.github.io/time-tracking-dashboard/">
+                    <img src="./img/trackin_dashboard.png" alt="">
+                    <div class="projectContent">
+                        <h3 class="text-center" data-section="portfolio" data-value="fifthName"></h3>
+                        <p  data-section="portfolio" data-value="fifthDescription">
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section class="container-fluid px-sm-1 px-lg-5" id="contact">
+        <div class="text-center">
+            <div class=" fw-bolder heading">
+                <<span data-section="contact" data-value="name" class="me-2 textShadow">Contact</span><span
+                        data-section="contact" data-value="me" class="labeled textShadow">me</span>/>
+            </div>
+            <div data-section="contact" data-value="description" class="fs-5 fw-lighter textShadow mb-2">Let's work
+                together
+            </div>
+        </div>
+        <form action="https://formsubmit.co/regaladoronald83@gmail.com" method="post">
+            <div>
+                <label class="form-control py-1 my-3" for="formName">
+                    <span data-section="contact" data-value="placeHolder_name">Full Name</span>
+                    <input type="text" id="formName" name="name" required>
+                </label>
+            </div>
+            <div>
+                <label class="form-control py-1 my-3" for="formEmail">
+                    <span data-section="contact" data-value="placeHolder_email">Email</span>
+                    <input type="email" id="formEmail" name="email" required>
+                </label>
+            </div>
+            <div>
+                <label class="form-control py-1 my-3" for="formPhone">
+                    <span data-section="contact" data-value="placeHolder_phone">Phone Number</span>
+                    <input type="number" name="phone number" id="formPhone" required>
+            </div>
+            <div>
+                <label class="form-control py-1 my-3" for="formMessage" id="message">
+                    <span data-section="contact" data-value="placeHolder_message">Message</span>
+                    <input type="text" name="message" id="formMessage" required>
+                </label>
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            <button id="submit" type="submit" class="btn rounded buttons col-12 mt-4" data-section="contact"
+                data-value="button">Send Message
+            </button>
+        </form>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div><span data-section="footer" data-value="location">Ubicacion: </span>Cuba,La Habana</div>
+        <div><span data-section="footer" data-value="email">Correo: </span>regaladoronald93@gmail.com</div>
+    </footer>
+
+    <template>
+        <div class="mosaico rounded p-1 m-2 col-sm-4 col-md-3 col-lg-3">
+            <img src="" alt="">
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./src/languages.js"></script>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>

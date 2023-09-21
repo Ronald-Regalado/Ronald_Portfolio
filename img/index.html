@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio:Ronald Regalado</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-icons-1.10.5/bootstrap-icons-1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- vavigation bar -->
+    <nav id="navbar" class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="navbar-brand fw-bold fs-1 ps-lg-5 ps-md-5" id="logo">Welcome</div>
+            <div class="navbar-toggler position-absolute end-0 top-0 mt-3 me-md-5 me-sm-2" id="menu" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list text-light"></i>
+            </div>
+            <div class="collapse navbar-collapse me-lg-5" id="navbarCollapse">
+                <ul id="list" class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2 my-1 fs-4"><span class="descriptiveIcons me-2"><i id="homeLink"
+                                class="bi-house"></i></span> <a href="#home">Home</a></li>
+                    <li class="nav-item mx-2 my-1 fs-4"><span class="descriptiveIcons me-2"><i id="aboutLink"
+                                class="bi-person"></i></span> <a href="#about">About</a></li>
+                    <li class="nav-item mx-2 my-1 fs-4"><span class="descriptiveIcons me-2"><i id="skillsLink"
+                                class="bi-code-slash"></i></span> <a href="#skills">Skills</a></li>
+                    <li class="nav-item mx-2 my-1 fs-4"><span class="descriptiveIcons me-2"><i id="portfolioLink"
+                                class="bi-briefcase"></i></span> <a href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-2 my-1 fs-4"><span class="descriptiveIcons me-2"><i id="contactLink"
+                                class="bi-envelope-at"></i></span> <a href="#contact">Contact</a></li>
+                    <li class="nav-item mx-2 my-1 me-auto"><i class="bi-moon-stars text-light change me-2"
+                            id="changeTheme">
+                        </i><span class="fs-4 descriptiveText">Theme</span>
+                    </li>
+                    <li class="nav-item mx-2 my-1 me-auto"><i class=" bi-translate text-light change me-2"
+                            id="changeLanguage"></i><span class="fs-4 descriptiveText">Language</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- sections -->
+    <!-- Home -->
+    <section class="container-fluid px-5" id="home">
+        <div class="row px-lg-5 px-sm-0">
+            <div class="homeContent mt-5 col-sm-12 col-md-8 col-lg-7">
+                <h3 class="display-4">Hello <span class="labeled fw-bold">I am</span></h3>
+                <h1 class="display-3 fw-bolder d-inline">Ronald <span">Regalado</span></h1>
+                <p class="my-3 fs-5">Welcome to my website, you can find here everything about me, my skills and my
+                    work.
+                </p>
+                <div id="socialMedia" class="mt-sm-0 mt-md-1 mt-lg-4">
+                    <ul class="d-flex justify-content-around">
+                        <li><a href=""><i class="bi-instagram"></i> </a></li>
+                        <li><a href=""><i class="bi-github"></i> </a></li>
+                        <li><a href=""><i class="bi-linkedin"></i> </a></li>
+                        <li><a href=""><i class="bi-stack-overflow"></i> </a></li>
+                    </ul>
+                </div>
+                <div id="containerCV" class="my-4">
+                    <button id="btnDownloadCV" class="btn buttons">Download CV</button>
+                </div>
+            </div>
+            <div id="hero" class="col-sm-12 col-md-4 col-lg-5 text-center align-self-center">
+                <img src="./svg/hero-devices.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="container-fluid px-lg-5 px-md-3 px-sm-1" id="about">
+        <div class="row text-center align-items-center">
+            <h1 class="display-2 fw-bolder mb-3">About <<span class="labeled">me</span> /></h1>
+            <!-- <img src="./img/user.jpg" class="img-fluid" alt=""> -->
+            <h3 class="fs-3 fw-light">Let's work together</h3>
+            <p id="aboutContent" class=" px-lg-5 px-md-3 px-sm-2">
+                Soy <span>Ronald Regalado</span>,estudiante de ingeniería <span>Automática</span> de la Universidad
+                Tecnológica de La Habana <span>"CUJAE"</span>.
+                Mi pasión por la programación me llevó a convertirme en <span>desarrollador web front-end</span>.
+                A lo largo de mis estudios y proyectos personales, he adquirido habilidades en <span> HTML,CSS y
+                    Javascript</span>,
+                y he trabajodo con frameworks como <span>Bootstrap</span> para crear <span>interfaces responsivas y
+                    atractivas</span>.
+                Siempre estoy dispuesto a enfrentar los nuevos retos y <span>aprender nuevas tecnologías</span> que me
+                permitan desarrollarme como profesional.
+            </p>
+
+        </div>
+    </section>
+    <!-- Shills -->
+    <section class="container-fluid px-5" id="skills">
+        <h1 class="display-2 fw-bolder mt-3 ">Skills( )</h1>
+        <div class="row">
+            <h4 class="text-center mt-2">Principales</h1>
+                <div id="principal" class="row d-flex justify-content-around mx-auto">
+                </div>
+                <h4 class="text-center mt-2">Secundarias</h1>
+                    <div id="secundary" class="row d-flex justify-content-around mx-auto"></div>
+
+        </div>
+    </section>
+    <section class="container-fluid px-sm-1 px-lg-5" id="portfolio">
+        <h1 class="display-2 fw-bolder ">Portfolio</h1>
+        <div id="portfolioContainer">
+            <div class="proyect">
+                <img src="./img/autoHtml.png" alt="">
+                <div class="proyectContent">
+                    <h3 class="text-center">Automatización</h3>
+                    <p class="fw-light fs-6">Proyecto de desarrollo personal.Construido con HTML,CSS,Javascript yo
+                        usando el framework Bootstrap.
+                    </p>
+                </div>
+            </div>
+            <div class="proyect">
+                <img src="./img/calificacion.png" alt="">
+                <div class="proyectContent">
+                    <h3 class="text-center d-sm-none">Valoración</h3>
+                    <p class="fw-light ">Proyecto de desarrollo personal.Construido con HTML,CSS y Javascript.
+                    </p>
+                </div>
+            </div>
+            <!-- <div class="proyect">
+                <img src="./img/multiStep.png" alt="">
+                <div class="proyectContent">
+                    <h3 class="text-center d-sm-none">Multi-Step</h3>
+                    <p class="fw-light ">Proyecto de desarrollo personal.Construido con HTML,CSS y Javascript.
+                    </p>
+                </div>
+            </div>
+            <div class="proyect">
+                <img src="./img/music.png" alt="">
+                <div class="proyectContent">
+                    <h3 class="text-center d-sm-none">Music</h3>
+                    <p class="fw-light ">Proyecto de desarrollo personal.Construido con HTML y CSS.
+                    </p>
+                </div>
+            </div>
+            <div class="proyect">
+                <img src="./img/trackin_dashboard.png" alt="">
+                <div class="proyectContent">
+                    <h3 class="text-center d-sm-none">Tracking-Dashboard</h3>
+                    <p class="fw-light ">Proyecto de desarrollo personal.Construido con HTML,CSS y Javascript.
+                    </p>
+                </div>
+            </div> -->
+
+
+
+
+        </div>
+    </section>
+
+    <section class="container-fluid container-fluid px-lg-5 px-md-3 px-sm-1" id="contact">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6 text-center my-auto">
+                <h1 class="display-2 fw-bolder ">Contact <span class="labeled">me</span></h1>
+                <h3 class="fs-3 fw-light d-sm-none d-md-inline"> Let's work together</h3>
+            </div>
+            <form action="" class="p-1 col-sm-12 col-md-12 col-lg-6">
+                <input type="text" class="form-control py-1 my-3" placeholder="Full Name">
+                <input type="email" class="form-control py-1 my-3" placeholder="Email Address">
+                <input type="" class="form-control py-1 my-3" placeholder="Mobile Number">
+                <input id="message" type="text" class="form-control py-1 mt-3" placeholder="Your Message">
+                <button type="submit" class="btn rounded buttons col-12 mt-4">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div><span>Ubicacion: </span>Cuba,La Habana</div>
+        <div><span>Correo: </span>regaladoronald93@gmail.com</div>
+    </footer>
+
+
+    <template>
+        <div class="mosaico rounded p-1 m-2 col-sm-4 col-md-3 col-lg-3">
+            <img src="" alt="">
+        </div>
+    </template>
+
+    <script src="./bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

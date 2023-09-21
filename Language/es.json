@@ -1,0 +1,56 @@
+{
+    "menu": {
+        "logo": "${Hola,mundo}",
+        "home": "//Inicio",
+        "about":"//Acerca",
+        "skills": "//Habilidades",
+        "portfolio": "//Portafolio",
+        "contact": "//Contacto",
+        "theme": "//Tema"
+    },
+    "home": {
+        "hello": "Hola, ",
+        "me": "Yo soy",
+        "name":"Ronald Regalado",
+        "description": "Bienvenido a me web, aquí podrás encontrar todo sobre mí, mis habilidades y trabajos.",
+        "download": "Descargar CV"
+    },
+    "about": {
+        "name": "Sobre",
+        "me": "mí",
+        "description": " Yo soy <span>Ronald Regalado</span>,estudiante de ingeniería <span>Automática</span> de la Universidad Tecnológica de La Habana <span>'CUJAE'</span> Mi pasión por la programación me llevó a convertirme en <span>desarrollador web front-end</span>.A lo largo de mis estudios y proyectos personales, he adquirido habilidades en <span> HTML,CSS y Javascript</span>, y he trabajodo con frameworks como <span>Bootstrap</span> para crear <span>interfaces responsivas y atractivas</span>.Siempre estoy dispuesto a enfrentar los nuevos retos y <span>aprender nuevas tecnologías</span> que me permitan desarrollarme como profesional."
+
+    },
+    "skills": {
+        "name": "Habilidades",
+        "main": "Principales",
+        "secondary": "Secundarias"
+    },
+    "portfolio": {
+        "name": "Portafolio",
+        "firstName": "Automática",
+        "firstDescription": "Proyecto de desarrollo personal.Construido con HTML,CSS,Javascript yo usando el framework Bootstrap.",
+        "secondName": "Valoración",
+        "secondDescription": "Proyecto de desarrollo personal.Construido con HTML,CSS y Javascript.",
+        "thirdName": "Multi-Step",
+        "thirdDescription": "Proyecto de desarrollo personal.Construido con HTML,CSS y Javascript.",
+        "fourthName": "Music",
+        "fourthDescription": "Proyecto de desarrollo personal.Construido con HTML y CSS.",
+        "fifthName": "Tracking-Dashboard",
+        "fifthDescription": "Proyecto de desarrollo personal.Construido con HTML,CSS y Javascript."
+    },
+    "contact": {
+        "name": "Contacto",
+        "me":"",
+        "description": "Trabajemos en equipo.",
+        "button": "Enviar",
+        "placeHolder_name": "Nombre y Apellidos",
+        "placeHolder_email": "Correo Electrónico",
+        "placeHolder_phone": "Número de Teléfono",
+        "placeHolder_message": "Mensaje"
+    },
+    "footer":{
+        "location":"Ubicación: ",
+        "email":"Correo: "
+    }
+}

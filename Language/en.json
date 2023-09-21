@@ -1,0 +1,55 @@
+{
+    "menu": {
+        "logo": "${Hello,word}",
+        "home": "//Home",
+        "about": "//About",
+        "skills": "//Skills",
+        "portfolio": "//Portfolio",
+        "contact": "//Contact",
+        "theme": "//Theme"
+    },
+    "home": {
+        "hello": "Hello, ",
+        "me": "I am",
+        "description": "Welcome to my website, you can find here everything about me, my skills and work.",
+        "download": "Download CV"
+    },
+    "about": {
+        "name": "About",
+        "me": "me",
+        "description": " I'm <span>Ronald Regalado</span>,student of <span>Automatic</span> Engineering at the Technological University of Havana <span>'CUJAE'</span> My passion for programming led me to become a </span>frontend developer</span>.Throughout my studies and personal projects I have acquired skills in,<span> HTML,CSS y Javascript</span>, and I have worked with frameworks like <span>Bootstrap</span>to create <span>responsive and attractive interfaces</span>. I'm always willing to face new challenges and learn new technologies that allow me to develop as a professional."
+
+    },
+    "skills": {
+        "name": "Skills",
+        "main": "Main",
+        "secondary": "secondary"
+    },
+    "portfolio": {
+        "name": "Portfolio",
+        "firstName": "Automation",
+        "firstDescription": "Personal development project.Built with HTML,CSS,Javascript and using the Bootstrap framework.",
+        "secondName": "Assessment",
+        "secondDescription": "Personal development project.Built with HTML,CSS and Javascript.",
+        "thirdName": "Multi-Step",
+        "thirdDescription": "Personal development project.Built with HTML,CSS and Javascript.",
+        "fourthName": "Music",
+        "fourthDescription": "Personal development project.Built with HTML and CSS.",
+        "fifthName": "Tracking-Dashboard",
+        "fifthDescription": "Personal development project.Built with HTML,CSS and Javascript"
+    },
+    "contact": {
+        "name": "Contact",
+        "me": "me",
+        "description": "Let's work together",
+        "button": "Send Message",
+        "placeHolder_name": "Full Name",
+        "placeHolder_email": "Email",
+        "placeHolder_phone": "Phone Number",
+        "placeHolder_message": "Message"
+    },
+    "footer": {
+        "location": "Location: ",
+        "email": "Email: "
+    }
+}
