@@ -12,7 +12,7 @@ const changeLanguage = async language => {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
-       });
+       }});
     const texts = await requestJson.json();
     for (const textToChange of textsToChange) {
         const section = textToChange.dataset.section;
