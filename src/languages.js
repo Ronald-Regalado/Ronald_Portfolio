@@ -8,7 +8,7 @@ const userLang=navigator.language.substring(0, 2);
 
 //Get json that correspond to language needed
 const changeLanguage = async language => {
-    const requestJson = await fetch(`./language/es.json`, {
+    const requestJson = await fetch(`./language/${language}`, {
       headers : { 
         'Content-Type': 'application/json',
         'Accept': 'application/json'
