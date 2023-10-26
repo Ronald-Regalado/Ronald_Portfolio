@@ -192,6 +192,10 @@ section {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
+.mosaico:hover{
+   box-shadow: -0.3rem 0.4rem 0.4rem var(--shadow) !important;
+  cursor:pointer;
+  
 /* portfolio */
 #portfolio{
   padding-bottom: 10rem;
