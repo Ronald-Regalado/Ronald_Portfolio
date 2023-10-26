@@ -8,11 +8,7 @@ const userLang=navigator.language.substring(0, 2);
 
 //Get json that correspond to language needed
 const changeLanguage = async language => {
-    const requestJson = await fetch(`https://github.com/Ronald-Regalado/Ronald_Portfolio/blob/main/Language/${language}.json`, {
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }});
+    const requestJson = await fetch(`https://github.com/Ronald-Regalado/Ronald_Portfolio/blob/main/Language/${language}.json`);
     const texts = await requestJson.json();
     for (const textToChange of textsToChange) {
         const section = textToChange.dataset.section;
