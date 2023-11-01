@@ -191,14 +191,9 @@ section {
   border-left: var(--border) 0.5px solid;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  cursor:pointer;
 }
 .mosaico:hover{
-   box-shadow: -0.3rem 0.4rem 0.4rem var(--shadow) !important;
-  cursor:pointer;
-}
-.mosaico img{
-  cursor:pointer;
+   box-shadow: -0.4rem 0.6rem 0.6rem var(--shadow) !important;
 }
   
 /* portfolio */
