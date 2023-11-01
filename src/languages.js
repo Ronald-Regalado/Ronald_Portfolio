@@ -8,11 +8,9 @@ const userLang=navigator.language.substring(0, 2);
 
 //Get json that correspond to language needed
 const changeLanguage = async language => {
-    console.log(language)
     const requestJson = await fetch(`./Language/${language}.json`);
      console.log(requestJson)
     const texts = await requestJson.json();
-     console.log(texts)
     for (const textToChange of textsToChange) {
         const section = textToChange.dataset.section;
         const value = textToChange.dataset.value;
