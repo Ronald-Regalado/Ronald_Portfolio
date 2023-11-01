@@ -197,6 +197,9 @@ section {
    box-shadow: -0.3rem 0.4rem 0.4rem var(--shadow) !important;
   cursor:pointer;
 }
+.mosaico img{
+  cursor:pointer;
+}
   
 /* portfolio */
 #portfolio{
